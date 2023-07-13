@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-image: url('../img/math-zarpq292tmb3whun.jpg');
 }
@@ -41,9 +42,9 @@ body {
 }
 
 #resultado {
-    width: 207px;
+    width: 212px;
     background-color: white;
-    height: 30px;
+    height: 42px;
     margin: 5px;
     font-size: 25px;
     color: black;
