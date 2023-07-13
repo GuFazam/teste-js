@@ -19,6 +19,15 @@ function backspace() {
     updateDisplay(); // Atualiza o campo de exibição
 }
 
+function addToDisplay(value) {
+    // Verifica se a vírgula já está presente na expressão
+    if (value === '.' && displayValue.includes('.')) {
+      return; // Se já tiver uma vírgula, não adiciona outra
+    }
+    displayValue += value; // Adiciona o valor do botão ao campo de exibição
+    updateDisplay(); // Atualiza o campo de exibição
+  }
+
 function calculate() {
     let result;
     try { // Cria uma função anônima com a expressão matemática e a executa

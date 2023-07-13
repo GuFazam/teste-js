@@ -22,7 +22,7 @@
             <table>
                 <tr>
                     <td><button class="btn btn-danger" onclick="clearDisplay()">C</button></td>
-                    <td><button class="btn btn-danger" onclick="backspace()">&lt;</button></td>
+                    <td><button class="btn btn-danger" onclick="backspace()">CE</button></td>
                     <td><button class="btn btn-secondary" onclick="addToDisplay('/')"> / </button></td>
                     <td><button class="btn btn-secondary" onclick="addToDisplay('*')"> * </button></td>
                 </tr>
@@ -42,12 +42,11 @@
                     <td><button class="btn btn-primary" onclick="addToDisplay('1')"> 1 </button></td>
                     <td><button class="btn btn-primary" onclick="addToDisplay('2')"> 2 </button></td>
                     <td><button class="btn btn-primary" onclick="addToDisplay('3')"> 3 </button></td>
-                    <td rowspan="2"><button class="btn btn-success" style="height: 106px;" onclick="calculate()"> =
-                        </button></td>
+                    <td rowspan="2"><button class="btn btn-success" style="height: 106px;" onclick="calculate()">=</button></td>
                 </tr>
                 <tr>
-                    <td colspan="3"><button class="btn btn-primary" style="width: 106px;"
-                            onclick="addToDisplay('0')">0</button></td>
+                    <td><button class="btn btn-secondary" onclick="addToDisplay('.')">.</button></td>
+                    <td colspan="2"><button class="btn btn-primary" style="width: 106px;" onclick="addToDisplay('0')">0</button></td>
                 </tr>
             </table>
         </div>
